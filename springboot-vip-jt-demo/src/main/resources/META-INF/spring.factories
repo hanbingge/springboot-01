@@ -1,0 +1,6 @@
+org.springframework.context.ApplicationContextInitializer=\
+  com.example.springbootvipjtdemo.listenner.StarterApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+  com.example.springbootvipjtdemo.listenner.StarterApplicationListener, \
+  com.example.springbootvipjtdemo.myconfig.MyPropertySourceListener

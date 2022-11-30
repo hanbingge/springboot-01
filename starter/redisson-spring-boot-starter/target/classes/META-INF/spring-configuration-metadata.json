@@ -1,0 +1,64 @@
+{
+  "groups": [
+    {
+      "name": "gp.girl",
+      "type": "com.gupao.redisson.GirlProperties",
+      "sourceType": "com.gupao.redisson.GirlProperties"
+    },
+    {
+      "name": "gp.redisson",
+      "type": "com.gupao.redisson.RedissonProperties",
+      "sourceType": "com.gupao.redisson.RedissonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gp.girl.name",
+      "type": "java.lang.String",
+      "description": "默认女孩名",
+      "sourceType": "com.gupao.redisson.GirlProperties",
+      "defaultValue": "mic"
+    },
+    {
+      "name": "gp.redisson.datasource",
+      "type": "java.lang.Integer",
+      "description": "Redis的服务器库",
+      "sourceType": "com.gupao.redisson.RedissonProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "gp.redisson.host",
+      "type": "java.lang.String",
+      "description": "Redis的服务器地址",
+      "sourceType": "com.gupao.redisson.RedissonProperties",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "gp.redisson.port",
+      "type": "java.lang.Integer",
+      "description": "Redis的服务器端口",
+      "sourceType": "com.gupao.redisson.RedissonProperties",
+      "defaultValue": 6379
+    },
+    {
+      "name": "gp.redisson.pwd",
+      "type": "java.lang.String",
+      "description": "Redis的服务器密码",
+      "sourceType": "com.gupao.redisson.RedissonProperties",
+      "defaultValue": "jingtian"
+    },
+    {
+      "name": "gp.redisson.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.gupao.redisson.RedissonProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "gp.redisson.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.gupao.redisson.RedissonProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

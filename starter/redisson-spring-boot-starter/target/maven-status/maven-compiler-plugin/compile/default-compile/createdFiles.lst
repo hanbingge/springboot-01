@@ -1,0 +1,8 @@
+com\gupao\redisson\App.class
+com\gupao\redisson\Girl.class
+com\gupao\redisson\Humen.class
+com\gupao\redisson\RedissonProperties.class
+com\gupao\redisson\GirlAutoConfiguration.class
+com\gupao\redisson\RedissonAutoConfiguration.class
+META-INF\spring-configuration-metadata.json
+com\gupao\redisson\GirlProperties.class

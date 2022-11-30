@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.gupao.redisson.RedissonAutoConfiguration,\
+  com.gupao.redisson.GirlAutoConfiguration
